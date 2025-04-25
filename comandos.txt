@@ -1,0 +1,14 @@
+git init 
+git config --global user.name "Nobrexxxx"
+git config --global user.email dantxxx@gmai.com
+git add dados.txt
+git status
+git commit -m "primeiro commit"
+git status
+git remote add origin https://github.com/ubiracynobrega/curso-git-embarcatech.git
+git push -u origin main
+clear
+git add comandos.txt
+git status
+git commit -m "segundo commit"
+git push origin main
